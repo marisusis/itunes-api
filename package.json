@@ -4,7 +4,8 @@
   "description": "An implementation of the iTunes api in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
